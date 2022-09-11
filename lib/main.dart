@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage>
   int currentMax = 10;
   @override
   void initState() {
-    _tabController = TabController(length: 3, vsync: this);
+    _tabController = TabController(length: 3, vsync: this, initialIndex: 1);
 
     bills = List.generate(
       10,
